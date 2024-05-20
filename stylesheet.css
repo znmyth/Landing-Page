@@ -88,3 +88,47 @@ body{
     direction: rtl;
     text-align: right;
 }
+
+
+  /* .swiper-wrapper {
+    display: flex;
+    flex-direction:row;
+   
+    justify-content: flex-start; /* این باعث می‌شود که فضا به طور مساوی بین کارت‌ها تقسیم شود
+    width: 100%
+
+  } */
+  
+  /* .card {
+    float: left;
+    margin: 5px; /* فاصله بین کارت‌ها
+    width: calc(25%-10px);
+     سایر استایل‌ها
+  } */
+
+  .swiper {
+    width: 93%;
+    height: 300px;
+  }
+
+  /* .swiper-slide{
+    width: 100%;
+    height: 100%;
+  } */
+
+
+
+  /* highcharts.com */
+  body {
+    font-family: 'b nazanin', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  #container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }

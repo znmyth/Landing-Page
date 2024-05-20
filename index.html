@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kharazmi University</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link href="bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="stylesheet.css" rel="stylesheet">
 </head>
@@ -23,7 +24,7 @@
             <a class="nav-link" href="#تماس با ما">تماس با ما</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#درباره دانشگاه">درباره دانشگاه</a>
+            <a class="nav-link" href="#about">درباره دانشگاه</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#دانشکده ها">دانشکده ها</a>
@@ -85,7 +86,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <!-- about Section     -->
+  <!-- about Section -->
   <section id="about" class="about section-padding">
     <div class="container">
       <div class="row">
@@ -112,41 +113,135 @@
         <div class="col-md-12">
           <div class="section-header text-center pb-5">
             <H2>دانشکده های خوارزمی</H2>
-            <p>پیرو مصوبه هیات امنای دانشگاه مبنی بر تصویب دانشکده هنر و معماری در سال 1394، دانشکده هنر و معماری دانشگاه خوارزمی، در سال 1395، با راه‌اندازی دو رشته معماری و شهرسازی تأسیس شد. مطابق مصوبه هیات امنای دانشگاه، همچنین راه‌اندازی رشته‌های گرافیک، نقاشی، مرمت، طراحی صنعتی و پژوهش هنر در این دانشکده تصویب شده و با توجه به برنامه راهبردی دانشکده انجام خواهد شد.</p>
+            <p>پیرو مصوبه هیات امنای دانشگاه مبنی بر تصویب دانشکده هنر و معماری در سال 1394، دانشکده هنر و معماری
+              دانشگاه خوارزمی، در سال 1395، با راه‌اندازی دو رشته معماری و شهرسازی تأسیس شد. مطابق مصوبه هیات امنای
+              دانشگاه، همچنین راه‌اندازی رشته‌های گرافیک، نقاشی، مرمت، طراحی صنعتی و پژوهش هنر در این دانشکده تصویب شده
+              و با توجه به برنامه راهبردی دانشکده انجام خواهد شد.</p>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12 col-md-12 col-lg-4">
-          <div class="card text-white text-center bg-dark pb-2">
-            <div class="card-body">
-              <h3 class="card-title">اقتصاد</h3>
-              <p class="load">با توجه به خلاء های موجود در زمینه آموزش و پژوهش هنر و معماری، پتانسیل های ویژه و منحصر به فرد دانشگاه خوارزمی که زمینه هم‌افزایی بین رشته‌ای را فراهم می آورد، دانشکده هنر و معماری در دانشگاه خوارزمی می‌تواند گام موثری در راستای نظریه‌پردازی و دستیابی به اهداف والای فرهنگ ایرانی- اسلامی باشد.</p>
-              <button class="btn btn-warning text-dark">بیشتر بدانید</button>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <h3 class="card-title">اقتصاد</h3>
+                <p class="load">بی‌گمان فرهنگ و هنر یکی از بزرگترین نیازهای جامعه بشری است و از یکسو نقش مهمی در فرهنگی
+                  جامعه و پیشبرد اهداف والای جامعه اسلامی دارد (نقشه جامع علمی کشور توجه خاصی به فرایند نظریه‌پردازی و
+                  بومی‌سازی این امر و هماهنگی آن با ارزش‌های والای هنر و معماری ایرانی- اسلامی مبذول داشته‌است)</p>
+                <button class="btn btn-warning text-dark">بیشتر بدانید</button>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-md-12 col-lg-4">
-          <div class="card text-white text-center bg-dark pb-2">
-            <div class="card-body">
-              <h3 class="card-title">هنر و معماری</h3>
-              <p class="load">با توجه به خلاء های موجود در زمینه آموزش و پژوهش هنر و معماری، پتانسیل های ویژه و منحصر به فرد دانشگاه خوارزمی که زمینه هم‌افزایی بین رشته‌ای را فراهم می آورد، دانشکده هنر و معماری در دانشگاه خوارزمی می‌تواند گام موثری در راستای نظریه‌پردازی و دستیابی به اهداف والای فرهنگ ایرانی- اسلامی باشد.</p>
-              <button class="btn btn-warning text-dark">بیشتر بدانید</button>
+          <div class="swiper-slide">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <h3 class="card-title">مدیریت</h3>
+                <p class="load">برنامه بزرگداشت هفته سرآمد آموزشی و تقدیر از سرآمدان آموزشی دانشکده هنر و معماری روز سه
+                  شنبه ۱۸ اردیبهشت ماه درسالن ابوریحان (پردیس تهران) با حضور ریاست دانشکده، معاون آموزشی و پژوهشی، معاون
+                  فرهنگی و اعضای هیات علمی، کارشناسان گروه‌های آموزشی و دانشجویان دانشکده برگزار گردید.</p>
+                <button class="btn btn-warning text-dark">بیشتر بدانید</button>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-md-12 col-lg-4">
-          <div class="card text-white text-center bg-dark pb-2">
-            <div class="card-body">
-              <h3 class="card-title">مدیریت</h3>
-              <p class="load">با توجه به خلاء های موجود در زمینه آموزش و پژوهش هنر و معماری، پتانسیل های ویژه و منحصر به فرد دانشگاه خوارزمی که زمینه هم‌افزایی بین رشته‌ای را فراهم می آورد، دانشکده هنر و معماری در دانشگاه خوارزمی می‌تواند گام موثری در راستای نظریه‌پردازی و دستیابی به اهداف والای فرهنگ ایرانی- اسلامی باشد.</p>
-              <button class="btn btn-warning text-dark">بیشتر بدانید</button>
+          <div class="swiper-slide">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <h3 class="card-title">هنر و معماری</h3>
+                <p class="load">با توجه به خلاء های موجود در زمینه آموزش و پژوهش هنر و معماری، پتانسیل های ویژه و منحصر
+                  به فرد دانشگاه خوارزمی که زمینه هم‌افزایی بین رشته‌ای را فراهم می آورد، دانشکده هنر و معماری در
+                  دانشگاه خوارزمی می‌تواند گام موثری در راستای نظریه‌پردازی و دستیابی به اهداف والای فرهنگ ایرانی-
+                  اسلام</p>
+                <button class="btn btn-warning text-dark">بیشتر بدانید</button>
+              </div>
             </div>
           </div>
+          <div class="swiper-slide">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <h3 class="card-title">علوم مالی</h3>
+                <p class="load">از سویی دیگر با توجه به دانشگاه در عرصه‌های مختلف علمی، نقش دانشکده هنر و معماری در این
+                  دانشگاه را دوچندان می‌کند. این امر می‌تواند خلاء های موجود در زمینه هنر و معماری به خصوص در مباحث
+                  بنیادیرا مرتفع نموده، زمینه‌های گسترش این مهم در سطح منطقه و به خصوص جهان اسلام را فراهم آورد.</p>
+                <button class="btn btn-warning text-dark">بیشتر بدانید</button>
+              </div>
+            </div>
+          </div>
+          ...
         </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
       </div>
+      <!-- <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <h3 class="card-title">اقتصاد</h3>
+                <p class="load">بی‌گمان فرهنگ و هنر یکی از بزرگترین نیازهای جامعه بشری است و از یکسو نقش مهمی در فرهنگی
+                  جامعه و پیشبرد اهداف والای جامعه اسلامی دارد (نقشه جامع علمی کشور توجه خاصی به فرایند نظریه‌پردازی و
+                  بومی‌سازی این امر و هماهنگی آن با ارزش‌های والای هنر و معماری ایرانی- اسلامی مبذول داشته‌است)</p>
+                <button class="btn btn-warning text-dark">بیشتر بدانید</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <h3 class="card-title">هنر و معماری</h3>
+                <p class="load">با توجه به خلاء های موجود در زمینه آموزش و پژوهش هنر و معماری، پتانسیل های ویژه و منحصر
+                  به فرد دانشگاه خوارزمی که زمینه هم‌افزایی بین رشته‌ای را فراهم می آورد، دانشکده هنر و معماری در
+                  دانشگاه خوارزمی می‌تواند گام موثری در راستای نظریه‌پردازی و دستیابی به اهداف والای فرهنگ ایرانی-
+                  اسلام</p>
+                <button class="btn btn-warning text-dark">بیشتر بدانید</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide"></div> -->
+      <!-- <div class="col-12 col-md-12 col-lg-4"></div>
+          <div class="swiper-slide">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <h3 class="card-title">مدیریت</h3>
+                <p class="load">برنامه بزرگداشت هفته سرآمد آموزشی و تقدیر از سرآمدان آموزشی دانشکده هنر و معماری روز سه
+                  شنبه ۱۸ اردیبهشت ماه درسالن ابوریحان (پردیس تهران) با حضور ریاست دانشکده، معاون آموزشی و پژوهشی، معاون
+                  فرهنگی و اعضای هیات علمی، کارشناسان گروه‌های آموزشی و دانشجویان دانشکده برگزار گردید.</p>
+                <button class="btn btn-warning text-dark">بیشتر بدانید</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <h3 class="card-title">علوم مالی</h3>
+                <p class="load">از سویی دیگر با توجه به دانشگاه در عرصه‌های مختلف علمی، نقش دانشکده هنر و معماری در این
+                  دانشگاه را دوچندان می‌کند. این امر می‌تواند خلاء های موجود در زمینه هنر و معماری به خصوص در مباحث
+                  بنیادیرا مرتفع نموده، زمینه‌های گسترش این مهم در سطح منطقه و به خصوص جهان اسلام را فراهم آورد.</p>
+                <button class="btn btn-warning text-dark">بیشتر بدانید</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+    <!-- <div class="swiper-pagination"></div> -->
     </div>
   </section>
+  <div id="container"></div>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+  <script src="/script.js"></script>
 </body>
+
 </html>
